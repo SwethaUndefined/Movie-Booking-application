@@ -1,0 +1,40 @@
+p{
+    background-color:#ff9999;
+    text-align: center;
+    margin-top: 0px;
+    padding: 8px;
+    font-size: 1rem;
+}
+.root{
+    overflow-x: scroll; 
+    display: flex;
+    flex-wrap:nowrap;
+}
+.movieHeader{
+    width: 220px !important;
+}
+.movieImage{
+    height: 350px;
+    display: block;
+    flex-wrap:nowrap;
+    cursor: pointer;
+}
+.flexContainer{
+   display: flex;
+}
+.left{
+    width: 76%;
+    margin:16px ;
+}
+.right{
+     width: 24%;
+     margin:16px;
+     padding: 25px;
+     height: 100% !important;
+}
+.findMovie{
+    color: blue;
+}
+
+
+
